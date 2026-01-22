@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js (Dependencies for generate-report.js)
+node_modules/
+npm-debug.log*
+
+# Testing & Reports (Pytest / Allure)
+.pytest_cache/
+allure-results/
+allure-report/
+reports/
+test-results/
+junit.xml
+*.log
+
+# Browser Drivers
+geckodriver.log
+chromedriver.log
+msedgedriver.log
