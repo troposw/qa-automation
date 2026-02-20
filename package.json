@@ -1,0 +1,12 @@
+{
+  "name": "qa-automation-report",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "allure:awesome": "node generate-report.js",
+	"allure:open": "allure open allure-report"
+  },
+  "dependencies": {
+    "allure": "3.1.0"
+  }
+}
